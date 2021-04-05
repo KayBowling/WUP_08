@@ -64,4 +64,11 @@ abline(ChestModel)
 summary.lm(ChestModel)
 ```
 
+```{r}
+WeightModel <- lm(LENGTH~WEIGHT,data=bears)
+plot(LENGTH~WEIGHT,data=bears)
+abline(WeightModel)
+summary.lm(WeightModel)
+```
+
 # Summary Statement

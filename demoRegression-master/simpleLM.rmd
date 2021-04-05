@@ -56,4 +56,12 @@ plot(LENGTH~HEADWTH,data=bears)
 abline(HeadWidthModel)
 summary.lm(HeadWidthModel)
 ```
+
+```{r}
+ChestModel <- lm(LENGTH~CHEST,data=bears)
+plot(LENGTH~CHEST,data=bears)
+abline(ChestModel)
+summary.lm(ChestModel)
+```
+
 # Summary Statement
